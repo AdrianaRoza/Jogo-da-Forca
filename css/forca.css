@@ -60,6 +60,9 @@ body{
     font-family: 'Ubuntu', sans-serif;
     font-weight: 900;
 }
+.teclas button:disabled{
+    cursor: not-allowed;
+}
 
 .teclas button:hover{
     transform: scale(1.3);
